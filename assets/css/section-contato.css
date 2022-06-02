@@ -1,0 +1,313 @@
+/*
+IMPORT DE FONTS
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/*
+FORMATAÇÃO GERAL
+*/
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.section-contato {
+
+    background-color: #3ABDE5;
+    height: 1000px;
+    z-index: 1004;
+
+}
+
+/*
+FORMATAÇÃO DA FITA E DO SEU TEXTO
+*/
+
+.container3-fita1 {
+
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #000000;
+    margin-top: 50px;
+    z-index: 996;
+
+}
+
+.container3-h1-fita1 {
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+    z-index: 997;
+
+}
+
+/*
+FORMATAÇÃO CONTATO-CONTENT
+*/
+
+.contato-content {
+
+    padding-top: 200px;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+
+}
+
+.contato-content p {
+
+    width: 30vw;
+    margin-bottom: 10px;
+    font-weight: 900;
+
+}
+
+.contato-content .endereco {
+
+    text-align: center;
+
+}
+
+/*
+FORMATAÇÃO DO FORMULÁRIO
+*/
+
+.forms {
+
+    margin-right: 10vw;
+
+}
+
+.forms form {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.forms h2 {
+
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+/*
+FORMATAÇÃO DO FORMULÁRIO
+*/
+
+.main-formulario input {
+
+    width: 25vw;
+    height: 5vh;
+    border-radius: 15px;
+    border: 0px solid;
+    padding-left: 15px;
+    margin-bottom: 10px;
+
+}
+
+.main-formulario label {
+
+    font-size: 1.2vw;
+    font-weight: 700;
+
+}
+
+.main-formulario .submit {
+
+    margin-top: 50px;
+    background-color: #00A4D7;
+    font-size: 1.2vw;
+    font-weight: 700;
+    width: 15vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+    padding-right: 15px;
+
+}
+
+.main-formulario .submit:hover {
+
+    
+    background-color: #016e90;
+    color: white;
+
+}
+
+/*
+FORMATAÇÃO BOTÕES ABAIXO DO FORMULÁRIO REDES SOCIAIS
+*/
+
+.imgs_forms {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+
+.imgs_forms img {
+
+    width: 2.8vw;
+    height: 5vh;
+   
+}
+
+/*
+=======================================================
+RESPONSIVIDADE PARA TELAS COM MENOS DE 600PX DE LARGURA
+=======================================================
+*/
+
+@media only screen and (max-width: 600px) {
+
+    .section-contato {
+
+        background-color: #3ABDE5;
+        height: 1600px;
+        width: 100%;
+    
+    }
+
+    .container3-fita1 img {
+
+        width: 80vw;
+
+    }
+
+    .container3-fita1 h1 {
+
+        text-align: center;
+        margin-left: 15vw;
+        font-size: 5vw;
+
+    }
+
+    .contato-content {
+
+        padding-top: 200px;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        display: flex;
+        justify-content: space-between;
+        gap: 2vw;
+        flex-direction: column;
+    
+    }
+    
+    .contato-content p {
+    
+        width: 96vw;
+        font-weight: 900;
+        text-align: justify;
+        text-justify: inter-word;
+    
+    }
+    
+    .contato-content .endereco {
+    
+        text-align: center;
+    
+    }
+
+    iframe {
+
+        width: 100%;
+
+    }
+
+    .forms {
+
+        margin-right: 1vw;
+        margin-left: 1vw;
+    
+    }
+    
+    .forms form {
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .forms h2 {
+    
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 45px;
+    
+    }
+
+    .main-formulario input {
+
+        width: 94vw;
+        height: 5vh;
+        border-radius: 15px;
+        border: 0px solid;
+        padding-left: 15px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .main-formulario label {
+    
+        font-size: 4vw;
+        font-weight: 700;
+    
+    }
+    
+    .main-formulario .submit {
+    
+        margin-top: 50px;
+        background-color: #00A4D7;
+        font-size: 4vw;
+        font-weight: 700;
+        width: 34vw;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30vw;
+        padding-right: 15px;
+    
+    }
+    
+    .main-formulario .submit:hover {
+    
+        
+        background-color: #016e90;
+        color: white;
+    
+    }
+
+    .imgs_forms {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 25px;
+        gap: -50px;
+    
+    }
+    
+    .imgs_forms img {
+    
+        width: 14vw;
+        height: 7vh;
+       
+    }
+
+}

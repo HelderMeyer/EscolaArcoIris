@@ -1,0 +1,269 @@
+/*
+SECTION NOSSA ESCOLA
+*/
+
+.section-nossa-escola {
+
+    margin-bottom: 100px;
+
+}
+
+/*
+ARCO-ÍRIS 1 DE FUNDO
+*/
+.arco-iris1 {
+
+    position: absolute;
+    z-index: 995;
+
+}
+
+/*
+FORMATAÇÃO DA FITA 1 E DO SEU TEXTO
+*/
+
+.container-fita1 {
+
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #000000;
+    margin-top: 50px;
+    z-index: 996;
+
+}
+
+.container-h1-fita1 {
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+    z-index: 997;
+
+}
+
+/*
+PARÁGRAFO E IMAGEM 1
+*/
+
+.div-nossa-escola-p-img {
+
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.div-nossa-escola-p-img img {
+
+    width: 600px;
+    height: 400px;
+    margin-top: 200px;
+    margin-right: 150px;
+    border: 3px solid #00A4D7;
+    border-radius: 15px;
+
+}
+
+/*
+PARÁGRAFO DE INFORMAÇÕES SOBRE A ESCOLA
+*/
+
+.nossa-escola-p {
+
+    position: static;
+    margin-top: 200px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #000000;
+    margin-left: 135px;
+    margin-right: 15px;
+    width: 50%;
+    z-index: 998;
+
+}
+
+/*
+ARCO-ÍRIS 2 DE FUNDO
+*/
+
+.arco-iris2 {
+
+    position:absolute;
+    margin-top: 300px;
+    margin-left: 80vw; 
+
+}
+
+/*
+FORMATAÇÃO DA FITA 2 E DO SEU TEXTO
+*/
+
+.container-fita2 {
+
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #000000;
+    margin-top: 100px;
+    z-index: 994;
+
+}
+
+.container-h1-fita2 {
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-right: 15vw;
+    font-size: 24px;
+    z-index: 992;
+
+}
+
+/*
+PARÁGRAFO E IMAGEM 2
+*/
+
+.div-nossa-escola-p-img2 {
+
+    justify-content: space-between;
+    display: flex;
+    margin-top: -100px;
+
+}
+
+.div-nossa-escola-p-img2 img {
+
+    width: 600px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 150px;
+    border: 3px solid #00A4D7;
+    border-radius: 15px;
+}
+
+/*
+PARÁGRAFO DE INFORMAÇÕES SOBRE A ESCOLA 2
+*/
+
+.nossa-escola-p2 {
+
+    position: static;
+    margin-top: 200px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #000000;
+    margin-left: 15px;
+    margin-right: 45px;
+    width: 50%;
+    margin-left: 15px;
+    margin-right: 135px;
+    width: 50%;
+    z-index: 207;
+
+}
+
+/*
+=======================================================
+RESPONSIVIDADE PARA TELAS COM MENOS DE 600PX DE LARGURA
+=======================================================
+*/
+
+@media only screen and (max-width: 600px) {
+
+    .container-fita1 img {
+
+        width: 80vw;
+
+    }
+
+    .container-fita1 h1 {
+
+        text-align: center;
+        margin-left: 15vw;
+        font-size: 5vw;
+
+    }
+
+    .div-nossa-escola-p-img {
+
+        flex-direction: column;
+        display: flex;
+    
+    }
+
+    .div-nossa-escola-p-img img {
+
+        width: 80vw;
+        height: 400px;
+        margin-left: 11vw;
+        
+    }
+
+    .nossa-escola-p {
+
+        margin-left: 15px;
+        width: 92vw;
+        margin-bottom: -150px;
+        justify-content: center;
+    
+    }
+
+    .arco-iris2 {
+
+        position:absolute;
+        margin-top: 300px;
+        z-index: 900;
+    
+    }
+
+    .container-fita2 img {
+
+        width: 80vw;
+        justify-content: center;
+
+    }
+
+    .container-fita2 h1 {
+
+        text-align: center;
+        margin-right: 15vw;
+        font-size: 5vw;
+
+    }
+
+    .div-nossa-escola-p-img2 {
+
+        flex-direction: column;
+        display: flex;
+    
+    }
+
+    .div-nossa-escola-p-img2 img {
+
+        width: 80%;
+        height: 400px;
+        margin-bottom: -150px;
+        margin-left: 50px;
+        z-index: 997;
+        
+    }
+
+    .nossa-escola-p2 {
+
+        margin-left: 15px;
+        width: 92vw;
+        justify-content: center;
+    
+    }
+
+    .arco-iris2 {
+
+        margin-left: 3vw;
+    
+    }
+
+}

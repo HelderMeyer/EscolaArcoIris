@@ -1,0 +1,282 @@
+/*
+ARCO-ÍRIS 1 DE FUNDO
+*/
+.arco-iris1 {
+
+    position: absolute;
+    z-index: 200;
+
+}
+
+.section-ensino {
+
+    margin-bottom: 100px;
+
+}
+
+/*
+ARCO-ÍRIS 2 DE FUNDO
+*/
+
+.arco-iris22 {
+
+    position:absolute;
+    margin-top: 400px;
+    margin-left: 80vw;
+
+}
+
+/*
+FORMATAÇÃO DA FITA 1 E DO SEU TEXTO
+*/
+
+.container2-fita1 {
+
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #000000;
+    margin-top: 50px;
+    z-index: 203;
+
+}
+  
+  .container2-h1-fita1 {
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+    z-index: 204;
+
+}
+
+/*
+PARÁGRAFO E IMAGEM 1
+*/
+
+.div-ensino-p-img {
+
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.div-ensino-p-img img {
+
+    width: 600px;
+    height: 400px;
+    margin-top: 60px;
+    margin-right: 7vw;
+    border: 3px solid #00A4D7;
+    border-radius: 15px;
+}
+
+/*
+Titulo Ensino Infantil
+*/
+
+.Ensino_Infantil{
+    position: relative;
+    padding-top: 210px;
+    color: #000000;
+    margin-left: 9vw;
+    margin-right: 15px;
+    width: 31%;
+    z-index: 206;
+}
+
+/*
+PARÁGRAFO DE INFORMAÇÕES SOBRE A ESCOLA
+*/
+
+.ensino-p {
+
+    position: relative;
+    margin-top: 60px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #000000;
+    padding-left: 35px;
+    margin-right: 30px;
+    margin-left: 7vw;
+    width: 50%;
+    z-index: 207;
+
+}
+
+/*
+FORMATAÇÃO DA FITA 2 E DO SEU TEXTO
+*/
+
+
+
+.ensino-fundamental1 {
+
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 43vw;
+    margin-top: 20vh;
+    font-size: 24px;
+
+}
+
+/*
+PARÁGRAFO E IMAGEM 2
+*/
+
+.div-ensino-p-img2 {
+
+    justify-content: space-between;
+    display: flex;
+}
+
+.div-ensino-p-img2 img {
+
+    width: 600px;
+    height: 400px;
+    margin-top: 30vh;
+    margin-left: 7vw;
+    border: 3px solid #00A4D7;
+    border-radius: 15px;
+}
+
+/*
+PARÁGRAFO DE INFORMAÇÕES SOBRE A ESCOLA 2
+*/
+
+.ensino-p2 {
+
+    position: static;
+    margin-top: 30vh;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #000000;
+    margin-left: 15px;
+    margin-right: 7vw;
+    width: 50%;
+    z-index: 207;
+
+}
+
+/*
+=======================================================
+RESPONSIVIDADE PARA TELAS COM MENOS DE 600PX DE LARGURA
+=======================================================
+*/
+
+@media only screen and (max-width: 600px) {
+
+    .container2-fita1 img {
+
+        width: 80vw;
+
+    }
+
+    .container2-fita1 h1 {
+
+        text-align: center;
+        margin-left: 15vw;
+        font-size: 5vw;
+
+    }
+
+    .div-ensino-p-img {
+
+        flex-direction: column;
+        display: flex;
+    
+    }
+
+    .div-ensino-p-img img {
+
+        width: 80vw;
+        height: 400px;
+        margin-left: 11vw;
+        
+    }
+
+    .ensino-p {
+
+        margin-left: -10px;
+        width: 96vw;
+        margin-bottom: 10px;
+        justify-content: center;
+    
+    }
+
+    .arco-iris2 {
+
+        position:absolute;
+        margin-top: 300px;
+        margin-left: 80vw; 
+    
+    }
+
+    .container2-fita2 img {
+
+        width: 80vw;
+        justify-content: center;
+
+    }
+
+    .div-ensino-p-img2 {
+
+        flex-direction: column;
+        display: flex;
+    
+    }
+
+    .div-ensino-p-img2 img {
+
+        width: 80%;
+        height: 400px;
+        margin-bottom: -150px;
+        margin-left: 50px;
+        z-index: 997;
+        
+    }
+
+    .ensino-p2 {
+
+        margin-left: 20px;
+        width: 90vw;
+        justify-content: center;
+    
+    }
+
+    .arco-iris2 {
+
+        margin-top: 340px;
+        margin-left: 2vw;
+    
+    }
+
+    .Ensino_Infantil{
+
+        position: relative;
+        padding-top: 210px;
+        color: #000000;
+        margin-left: 12vw;
+        margin-right: 3vw;
+        width: 45%;
+        z-index: 206;
+    }
+
+    .ensino-fundamental1 {
+
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 12vw;
+        margin-top: 20vh;
+        font-size: 24px;
+    
+    }
+
+}

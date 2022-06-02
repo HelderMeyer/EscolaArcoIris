@@ -1,0 +1,81 @@
+/*
+BANNER
+*/
+
+.section-banner {
+
+    box-shadow: 0 -150px 2px 2px #00A4D7;
+    background-image: url("../img/kids-playing.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+    margin-top: 250px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+/*
+FORMATAÇÃO E ANIMAÇÕES DO BOTÃO DO BANNER
+*/
+
+.section-banner a {
+
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #00A4D7;
+    padding: 15px;
+    border-radius: 90px;
+    font-size: 30px;
+    margin-top: 100px;
+    transition: 0.3s;
+
+}
+
+.section-banner a:hover {
+
+    transform: scale(1.2);
+    background-color: #0082aa;
+    transition: 0.3s;
+
+}
+
+/*
+=======================================================
+RESPONSIVIDADE PARA TELAS COM MENOS DE 600PX DE LARGURA
+=======================================================
+*/
+
+@media only screen and (max-width: 600px) {
+
+    .section-banner {
+
+        background-image: url("../img/kids-playing.png");
+        background-attachment: scroll;
+        background-size: 100% 100%;
+        margin-top: 0px;
+        width: 100%;
+        font-size: 3vw;
+
+    }
+
+    .section-banner a {
+
+        text-decoration: none;
+        color: whitesmoke;
+        background-color: #00A4D7;
+        padding: 3vw;
+        border-radius: 90px;
+        font-size: 5vw;
+        margin-top: 100px;
+        transition: 0.3s;
+    
+    }
+
+}
