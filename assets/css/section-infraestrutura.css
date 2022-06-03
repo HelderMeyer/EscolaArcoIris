@@ -104,12 +104,14 @@ FORMATAÇÃO DA IMAGEM 1
     position: relative;
     text-align: center;
     color: #000000;
+    transition: 0.5s;
 
 }
 
 .imagem-parquinho:hover {
 
     opacity: 100%;
+    transition: 0.5s;
 
 }
 
@@ -154,12 +156,14 @@ FORMATAÇÃO DA IMAGEM 2
     position: relative;
     text-align: center;
     color: #000000;
+    transition: 0.5s;
 
 }
 
 .imagem-piscina:hover {
 
     opacity: 100%;
+    transition: 0.5s;
 
 }
 
@@ -218,12 +222,14 @@ FORMATAÇÃO DA IMAGEM 1
     position: relative;
     text-align: center;
     color: #000000;
+    transition: 0.5s;
 
 }
 
 .imagem-quadra:hover {
 
     opacity: 100%;
+    transition: 0.5s;
 
 }
 
@@ -268,12 +274,14 @@ FORMATAÇÃO DA IMAGEM 2
     position: relative;
     text-align: center;
     color: #000000;
+    transition: 0.5s;
 
 }
 
 .imagem-horta:hover {
 
     opacity: 100%;
+    transition: 0.5s;
 
 }
 
